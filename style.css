@@ -1,8 +1,130 @@
-#logo {
-	position:absolute;
-	left:50%;
-	top:30%;
-	transform:translate(-50%, -50%);
-}
-/* Puts logo in the center */
 
+body {
+	font-family: Arial, sans-serif; 
+	width: 100vw;
+	height: 100vh;
+	font-size:13px;
+	margin:0;
+	padding:0;
+    overflow:hidden;
+}
+.content{
+    padding:160px;
+}
+
+.logo{
+    padding-bottom:25px;
+    display: block;
+    margin: 0 auto;
+    
+}
+#searchbar{
+	display: block;
+	margin: 0 auto;
+    width:50%;
+    border-radius:0;
+    height:45px;
+    background:transparent;
+    box-shadow: 2px 2px 2px #dfdfdf;
+    border: 1px solid #dfdfdf;
+}
+#buttons{
+	position:relative;
+	margin:3px;
+	padding-top:20px;
+	text-align: center;
+}
+
+.google{
+	border-radius:0;
+	padding: 10px 20px;
+	margin:3px;
+	border:1px solid #f2f2f2;
+	font-size:13px;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	color:grey;
+}
+
+.lucky{
+	border-radius:0;
+	padding: 10px 20px;
+	margin:3px;
+	border:1px solid #f2f2f2;
+    font-size:13px;
+    font-weight: bold; 
+	font-family: Arial, sans-serif;
+    color: grey;
+
+}
+.navhead{
+	width:100%;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.opacity{
+	opacity: 0.75;
+	color:#000;	
+}
+a{
+	display:inline-block;
+	text-decoration: none;
+    padding-left:15px;
+    
+    
+}
+#left{
+	position:relative;
+	top: 20px;
+}
+.right{
+   text-align: right;
+   padding-right:25px;       
+}
+.login{
+    display:inline-block;
+    border: 1px solid #4285f4;
+    font-weight:bold;
+    line-height: 28px;
+    padding: 0 12px;
+    background: #4285f4;
+    color:#fff;
+}
+.bottombar{
+	position:fixed;
+	display:inline-block;
+	width:100%;
+	list-style:none;
+	margin:0;
+	padding:0;
+	line-height: 40px;
+	bottom:0px;
+    background-color: #f2f2f2;
+    border-top:.25px solid #f2f2f2;
+    
+
+}
+.bottomleft{
+	position:fixed;
+	margin-left:10px;
+	
+	
+}
+
+.colors{
+    color:#666;
+}
+.bottomright{
+	text-align: right;
+	padding-right:20px;
+
+}
+.googlenote{
+	position:relative;
+	display:inline-block;
+	top:6px;
+	padding-right:15px;
+	padding-left:15px;
+}
